@@ -14,7 +14,6 @@ window.onLoad = Physics(function(world) {
 
    world.add(renderer);
 
-
    // render on each step
      world.on('step', function(){
        world.render();
